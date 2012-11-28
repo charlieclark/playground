@@ -1,0 +1,259 @@
+
+/*fonts*/
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Lobster', cursive;*/
+
+
+html, body, ul, li, h1, h2, h3 ,h4{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: small;
+}
+
+body{
+	font-family: Helvetica;
+	font-family: 'Lobster', cursive;
+}
+
+
+
+/*header*/
+#header{
+
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	
+
+	height: 40px;
+	background-color: rgba( 0 , 0 , 0 , 0.5);
+	z-index: 998;
+}
+
+#menu{
+	height: 100%;
+	font-size: 0.9em;
+	
+	position: relative;
+	padding-left: 20px;
+
+}
+#header span{
+	cursor: pointer;
+	display: block;
+	padding: 13px 10px 0 10px;
+	font-family: "Helvetica";
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+	color: white;
+	margin-right: 20px;
+	height: 100%;
+	position: absolute;
+}
+
+#header span:hover{
+
+	background-color: rgba(255,255,255,0.3);
+}
+
+#ccd{
+	right: 0;
+}
+#share{
+	left: 210px;
+}
+#compose{
+
+}
+#facebook-iframe{
+position: absolute;
+right: 282px;
+margin-top: 11px;
+}
+
+.twitter-share-button{
+position: absolute;
+right: 367px;
+margin-top: 11px;
+}
+
+/*alphabet*/
+
+#alphabetTest{
+	text-align: center;
+}
+
+.word{
+
+margin-bottom: 30px;
+
+display: inline-block;
+margin-right: 60px;
+white-space: nowrap;
+
+}
+
+.letter{
+	margin: 0 10px;
+	display: inline-block;
+	height: 177px;
+	width: 187px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	float:left;
+}
+
+/*landing*/
+
+#landing{
+width: 100%;
+height: 100%;
+/*background: url("../images/fire.jpeg");*/
+background-size: cover;
+}
+
+/*message*/
+
+#message{
+	/*margin-top: 30px;*/
+	padding: 5%;
+	width: 90%;
+	height: 90%;
+}
+
+/*loader*/
+#loader{
+	background: url("../elements/loader.gif");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 16px;
+	height: 16px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -25px;
+	margin-left: -25px;
+}
+
+
+/*form*/
+
+#userInput , #share-section{
+	padding: 30px;
+	border-radius: 15px;
+	position: fixed;
+	top: 48%;
+	left:50%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+
+
+}
+
+#userInput input{
+margin: 10px 30px 50px 30px ;
+width: 300px;
+height: 40px;
+color: black;
+font-size: 1.2em;
+text-align: center;
+
+}
+
+
+#userInput{
+	height: 340px;
+	width: 500px;
+	margin-top: -200px;
+	margin-left: -280px;
+}
+
+
+/*share*/
+
+#share{
+
+}
+
+#share-section{
+	height: 240px;
+	width: 500px;
+	margin-top: -165px;
+	margin-left: -280px;
+	z-index: 999;
+}
+
+#close{
+	cursor: pointer;
+	position: absolute;
+	top:15px;
+	right: 15px;
+	width: 30px;
+	height: 30px;
+	background: url("../elements/close.png") no-repeat;
+	background-size: contain;
+}
+
+
+#link-holder{
+	font-family: "Helvetica";
+	padding: 10px;
+	margin: 20px auto 20px auto;
+	width: 300px;
+	height: 80px;
+	text-align: center;
+	display: block;
+}
+
+#share-section h2{
+font-size: 2.5em;
+}
+
+#share-section span{
+font-size: 1.5em;
+}
+
+#share-section #fbook-share{
+	display: inline-block;
+	margin-top: 10px;
+	cursor: pointer;
+	color: #7b97bc;
+}
+
+ #share-section #fbook-share:hover{
+ 	color: white;
+ }
+
+#button{
+	/*font-family: 'Lobster', cursive;*/
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+background-color: #000000 ;
+width: 200px;
+height: 40px;
+color: white;
+font-size: 1.2em;
+border: solid 2px white;
+-webkit-transition: opacity 0.5s ease;
+cursor: pointer;
+}
+
+#button:hover{
+
+
+opacity: 0.5;
+-webkit-transition: opacity 0.5s ease;
+
+}
+
+.primary{
+	font-size: 2.3em;
+}
+
+.secondary{
+	font-size: 1.2em;
+
+}
+
